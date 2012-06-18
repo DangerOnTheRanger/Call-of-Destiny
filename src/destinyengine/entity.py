@@ -6,12 +6,16 @@ class Entity(object):
     def __init__(self):
         self._components = {}
 
-    def add_component(self, component):
+    def add_component(self, new_component):
 
-        assert component.uuid not in self._components
-        self._components[component.uuid] = component
-        component.entity = self
-        component.register()
+        assert new_component.uuid not in self._components
+
+        for required_component in new_component.required_components:
+            self.add_component(component.ComponentFactory.make(required_component))
+
+        self._components[new_component.uuid] = component
+        new_component.entity = self
+        new_component.register()
 
     def remove_component(self, uuid):
 
