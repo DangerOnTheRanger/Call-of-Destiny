@@ -1,5 +1,5 @@
-Call of Destiny's artwork is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License,
-which you can read at: http://creativecommons.org/licenses/by-nc-sa/3.0/
+Call of Destiny's artwork is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License,
+which you can read at: http://creativecommons.org/licenses/by-sa/3.0/
 
 Call of Destiny's code is licensed under the GNU GPL version 3 or later, which is reproduced below.
 
